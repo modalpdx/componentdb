@@ -34,6 +34,10 @@ following command at a command prompt to build the database:
 mysql -u [dbuser] -p[dbpassword] database < database.sql
 ```
 
+Note that there is no space between "-p" and the DB user password. Also
+note that this is entered in plain text on a command line, not as a hashed
+password. 
+
 Next, you will need to edit the "db = ..." line in functions.php to include your
 database host address, user name, password, and database name. A comment
 above the line to be edited in functions.php explains this.
